@@ -1,3 +1,4 @@
+<?php include "../functions/functions.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +9,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-    <title>Designer</title>
+    <title><?php echo get_title($page_title); ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

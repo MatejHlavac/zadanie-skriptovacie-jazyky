@@ -1,5 +1,6 @@
 <?php
 $active_page = 'explore';
+$page_title = "Explore";
 include 'partials/header.php';
 ?>
 

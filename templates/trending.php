@@ -1,5 +1,6 @@
 <?php
 $active_page = 'trending';
+$page_title = "Trending";
 include 'partials/header.php';
 ?>
 
