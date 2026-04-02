@@ -11,14 +11,14 @@
     <title>Designer HTML5 Template - About Page</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-572-designer.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="../assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../assets/css/templatemo-572-designer.css">
+    <link rel="stylesheet" href="../assets/css/owl.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 <!--
 
@@ -56,26 +56,26 @@ https://templatemo.com/tm-572-designer
 
       <nav class="main-navigation navbar navbar-expand-lg navbar-light">
           <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="assets/images/white-logo.png" alt=""></a>
+            <a class="navbar-brand" href="index.php"><img src="../assets/images/white-logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">Homepage</a>
+                  <a class="nav-link" href="index.php">Homepage</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="about.html">About Us</a>
+                  <a class="nav-link active" href="about.php">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="explore.html">Explore Work</a>
+                  <a class="nav-link" href="explore.php">Explore Work</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="trending.html">Trending</a>
+                  <a class="nav-link" href="trending.php">Trending</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact Us</a>
+                  <a class="nav-link" href="contact.php">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -132,7 +132,7 @@ https://templatemo.com/tm-572-designer
                         <h2>A Company Who Specializes<br><em>In Interior Design</em>.</h2>
                     </div>
                     <div class="left-image">
-                        <img src="assets/images/interior-design-left-image.jpg" alt="">
+                        <img src="../assets/images/interior-design-left-image.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 align-self-center">
@@ -195,7 +195,7 @@ https://templatemo.com/tm-572-designer
                             <div class="col-lg-7">
                             <div class="owl-what-they-say owl-carousel">
                                 <div class="item testimonial-item">
-                                    <img class="float-start" src="assets/images/" alt="">
+                                    <img class="float-start" src="../assets/images/" alt="">
                                     <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="currentColor" class="bi bi-chat-quote" viewBox="0 0 16 16">
                                     <path class="icon" d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
                                     <path class="icon" d="M7.066 6.76A1.665 1.665 0 0 0 4 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
@@ -223,7 +223,7 @@ https://templatemo.com/tm-572-designer
                                 </div>
                                 
                                 <div class="item testimonial-item">
-                                    <img class="float-start" src="assets/images/" alt="">
+                                    <img class="float-start" src="../assets/images/" alt="">
                                     <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="currentColor" class="bi bi-chat-quote" viewBox="0 0 16 16">
                                     <path class="icon" d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
                                     <path class="icon" d="M7.066 6.76A1.665 1.665 0 0 0 4 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
@@ -245,7 +245,7 @@ https://templatemo.com/tm-572-designer
                                 </div>
                                 
                                 <div class="item testimonial-item">
-                                    <img class="float-start" src="assets/images/" alt="">
+                                    <img class="float-start" src="../assets/images/" alt="">
                                     <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="currentColor" class="bi bi-chat-quote" viewBox="0 0 16 16">
                                     <path class="icon" d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
                                     <path class="icon" d="M7.066 6.76A1.665 1.665 0 0 0 4 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
@@ -297,7 +297,7 @@ https://templatemo.com/tm-572-designer
             <div class="row">
                 <div class="col-lg-4">
                     <div class="about-widget">
-                        <img src="assets/images/footer-logo.png" alt="designer template by TemplateMo">
+                        <img src="../assets/images/footer-logo.png" alt="designer template by TemplateMo">
                         <p>Designer is free Bootstrap v5.1.3 CSS website template. Everyone can get the best HTML CSS templates from TemplateMo website.</p>
                     </div>
                 </div>
@@ -390,15 +390,15 @@ https://templatemo.com/tm-572-designer
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
+  <script src="../assets/js/isotope.min.js"></script>
+  <script src="../assets/js/owl-carousel.js"></script>
 
-  <script src="assets/js/tabs.js"></script>
-  <script src="assets/js/popup.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <script src="../assets/js/tabs.js"></script>
+  <script src="../assets/js/popup.js"></script>
+  <script src="../assets/js/custom.js"></script>
   <script>
     setTimeout(function(){
         $('.loader').fadeToggle();

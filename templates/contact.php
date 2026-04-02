@@ -11,14 +11,14 @@
     <title>Designer Template- Contact Page</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-572-designer.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="../assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../assets/css/templatemo-572-designer.css">
+    <link rel="stylesheet" href="../assets/css/owl.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 <!--
 
@@ -56,26 +56,26 @@ https://templatemo.com/tm-572-designer
 
       <nav class="main-navigation navbar navbar-expand-lg navbar-light">
           <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="assets/images/white-logo.png" alt=""></a>
+            <a class="navbar-brand" href="index.php"><img src="../assets/images/white-logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">Homepage</a>
+                  <a class="nav-link" href="index.php">Homepage</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">About Us</a>
+                  <a class="nav-link" href="about.php">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="explore.html">Explore Work</a>
+                  <a class="nav-link" href="explore.php">Explore Work</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="trending.html">Trending</a>
+                  <a class="nav-link" href="trending.php">Trending</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="contact.html">Contact Us</a>
+                  <a class="nav-link active" href="contact.php">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -195,7 +195,7 @@ https://templatemo.com/tm-572-designer
             <div class="row">
                 <div class="col-lg-4">
                     <div class="about-widget">
-                        <img src="assets/images/footer-logo.png" alt="designer template by TemplateMo">
+                        <img src="../assets/images/footer-logo.png" alt="designer template by TemplateMo">
                         <p>Designer is free Bootstrap v5.1.3 HTML CSS layout for your website. Everyone can download best HTML CSS templates from TemplateMo website instantly.</p>
                     </div>
                 </div>
@@ -288,15 +288,15 @@ https://templatemo.com/tm-572-designer
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
+  <script src="../assets/js/isotope.min.js"></script>
+  <script src="../assets/js/owl-carousel.js"></script>
 
-  <script src="assets/js/tabs.js"></script>
-  <script src="assets/js/popup.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <script src="../assets/js/tabs.js"></script>
+  <script src="../assets/js/popup.js"></script>
+  <script src="../assets/js/custom.js"></script>
   <script>
     setTimeout(function(){
         $('.loader').fadeToggle();
