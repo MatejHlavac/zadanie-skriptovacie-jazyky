@@ -7,3 +7,9 @@ function get_title($page_title) {
     }
     return $page_title;
 }
+
+
+function redirect_to($url) {
+    header("Location: " . $url);
+    exit;
+}

@@ -1,4 +1,21 @@
 <?php
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $firstName = $_POST['first-name'] ?? '';
+    $lastName  = $_POST['last-name'] ?? '';
+    $email     = $_POST['email'] ?? '';
+    $subject   = $_POST['subject'] ?? '';
+    $message   = $_POST['message'] ?? '';
+
+    $timestamp = date("Y-m-d H:i:s");
+    $logData = "[$timestamp] Meno: $firstName $lastName | Email: $email | Predmet: $subject | Správa: $message" . PHP_EOL;
+
+    $file_path = __DIR__ . '/../data/log.txt';
+    
+
+    file_put_contents($file_path, $logData, FILE_APPEND | LOCK_EX);
+
+}
 $active_page = 'contact';
 $page_title = "Contact";
 include 'partials/header.php';
@@ -46,19 +63,19 @@ include 'partials/header.php';
                                         </div>
                                     </div>
                                     <div class="col-lg-6">                 
-                                        <input name="first-name" type="text" id="first-name" placeholder="First Name*" required="">               
+                                        <input name="first-name" type="text" id="first-name" placeholder="First Name*" required>               
                                     </div>
                                     <div class="col-lg-6">                
-                                        <input name="last-name" type="text" id="last-name" placeholder="Last Name*" required="">                           
+                                        <input name="last-name" type="text" id="last-name" placeholder="Last Name*" required>                           
                                     </div>
                                     <div class="col-lg-6">                       
-                                        <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">                        
+                                        <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required>                        
                                     </div>
                                     <div class="col-lg-6">                         
-                                        <input name="subject" type="text" id="subject" placeholder="Subject*" required="">                        
+                                        <input name="subject" type="text" id="subject" placeholder="Subject*" required>                        
                                     </div>
                                     <div class="col-lg-12">                           
-                                        <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required=""></textarea>                          
+                                        <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required></textarea>                          
                                     </div>
                                     <div class="col-lg-12">
                                         <button type="submit" id="form-submit" class="main-button ">Send Message</button>                            
